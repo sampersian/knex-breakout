@@ -1,0 +1,11 @@
+<h1>My Posts</h1>
+
+{{#each posts}}
+<div class="aPost" id='{{this.id}}'>
+  <h3>{{this.title}}</h3>
+  <h5>By: {{this.user_id}}</h5>
+  <p>
+    {{this.content}}
+  </p>
+</div>
+{{/each}}
